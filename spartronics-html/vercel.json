@@ -1,0 +1,41 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/team/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/sponsor/",
+      "destination": "/support/",
+      "permanent": true
+    },
+    {
+      "source": "/donate/",
+      "destination": "/support/",
+      "permanent": true
+    },
+    {
+      "source": "/join/robotics-club/",
+      "destination": "/join/",
+      "permanent": true
+    },
+    {
+      "source": "/outreach/:path*",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/resources/code/",
+      "destination": "/robots/",
+      "permanent": true
+    },
+    {
+      "source": "/resources/:path*",
+      "destination": "/about/",
+      "permanent": true
+    }
+  ]
+}
